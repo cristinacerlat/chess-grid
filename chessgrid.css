@@ -1,0 +1,43 @@
+header {
+    text-align: center;
+    font-style: oblique;
+    font-size: 25px;
+    color: rgb(106, 86, 86);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    
+}
+
+.container div {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    width: 150px;
+    height: 100px;
+}
+
+.item-1 {
+    grid-area: 10 / 10 /span 3 / span 3;
+}
+
+.item-2 {
+    grid-area: 7 / 7 /span 3 / span 3;
+}
+
+.item-3 {
+    grid-area: 4 / 4 /span 3 / span 3;
+}
+
+.item-4 {
+    grid-area: 1 / 1 /span 3 / span 3;
+}
